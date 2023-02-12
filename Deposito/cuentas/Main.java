@@ -1,12 +1,37 @@
 package cuentas;
 
+/**
+ * Clase que implementa la cuenta bancaria. 
+ * Devuelve el saldo y movimientos de la cuenta.
+ * 
+ * @author María
+ * @version 2.0
+ * @since 2.0
+ * 
+ * */
+
 public class Main {
+	
+	/**
+	 * Método main para la implementación de una cuenta bancaria.
+	 * 
+	 * Realiza una operación con una cantidad que se pasa al método operativa_cuenta
+	 * 
+	 * @param args array que recibe datos de la línea de comandos
+	 * 
+	 * */
 	 public static void main(String[] args) {
 	        operativa_cuenta(0);
 	    }
-/** Inicio del javadoc desde Git.
-
-*/
+	 
+	 /**
+	  * Método que ejecuta las operaciones de la cuenta asociada.
+	  * 
+	  * Este método contiene un bloque try-catch que notifica si hay fallos en los métodos de ingreso y retirada, recogidos en la clase CCuenta
+	  *
+	  * @param cantidad Cantidad a operar con la cuenta.
+	  * 
+	  * */
 
 
 	private static void operativa_cuenta(float cantidad) {
